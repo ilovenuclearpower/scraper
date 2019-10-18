@@ -36,7 +36,10 @@ def get_text_from_images(word_file_path, target_dir):
         ##Uses pytesseract on the image file we grabbed, converts to grayscale using Pillow, then runs the pytesseract ocr image-to-string conversion
         converted_py_file.write(pytesseract.image_to_string(Image.open(file).convert('LA')))
         converted_py_file.close()
+        os.remove(file)
         count += 1
+    os.rmdir("word/media")
+    os.rmdir("word")
 
 
 ##Grabs every file in a given directory then calls get_text_from_images
