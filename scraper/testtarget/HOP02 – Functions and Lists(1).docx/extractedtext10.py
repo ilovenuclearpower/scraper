@@ -1,0 +1,1 @@
+['charger', 'book', 'laptop', 'pen', 'banana', 2, True, ‘'keys']

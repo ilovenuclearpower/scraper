@@ -1,0 +1,1 @@
+['charger', ‘Laptop', aot "banana', 2, True, 'keys']
