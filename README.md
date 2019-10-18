@@ -8,11 +8,14 @@ pytesseract 0.3.0
 Pillow 6.2.0
 
 Recommend running:
+
     pip install pytesseract
 
 Additionally you will need to have a functional copy of Tesseract-OCR installed in your computer, and in your PATH, for Windows:
+
     https://github.com/UB-Mannheim/tesseract/wiki
 For *nix/MacOS:
+
     https://github.com/tesseract-ocr/tesseract
 
 ##Usage
