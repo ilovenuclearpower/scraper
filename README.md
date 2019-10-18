@@ -1,8 +1,8 @@
-#Scraper - An OCR Word document converter!
+# Scraper - An OCR Word document converter!
 
 This program does a simple OCR extraction of ALL text from ALL images in a given word document, and outputs them as .py files. Support for roll-your-own target extensions may be added later, but it shouldn't be too hard to add it yourself if you so desire.
 
-##Requirements:
+## Requirements:
 Testing done on Python 3.8.X
 pytesseract 0.3.0
 Pillow 6.2.0
@@ -18,7 +18,7 @@ For *nix/MacOS:
 
     https://github.com/tesseract-ocr/tesseract
 
-##Usage
+## Usage
     py scraper.py
     python scraper.py
 When you run the tool, it will ask you for a full path of the sources of your doc files,
